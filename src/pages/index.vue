@@ -11,7 +11,7 @@ onMounted(() => {
     onRegisteredSW(_url, registration) {
       setInterval(() => {
         registration && registration.update()
-      }, 3600000)
+      }, 36000)
     }
   })
 })
